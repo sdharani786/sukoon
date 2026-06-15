@@ -58,9 +58,9 @@ const CONFIG = {
 		},
 		{
 			id: '2',
-			name: 'Mail',
-			icon: 'mail',
-			link: 'https://mail.google.com/',
+			name: 'GitHub',
+			icon: 'github',
+			link: 'https://github.com/',
 		},
 		{
 			id: '3',
@@ -138,15 +138,15 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
-					name: 'Xiaomi Usage',
+					name: 'Xiaomi',
 					link: 'https://platform.xiaomimimo.com/console/plan-manage',
 				},
 				{
-					name: 'DeepSeek Usage',
+					name: 'DeepSeek',
 					link: 'https://platform.deepseek.com/usage',
 				},
 				{
-					name: 'OpenAI Usage',
+					name: 'OpenAI',
 					link: 'https://platform.openai.com/usage',
 				},
 				{
@@ -156,7 +156,7 @@ const CONFIG = {
 			],
 		},
 		{
-			icon: 'shopping-bag',
+			icon: 'coffee',
 			id: '2',
 			links: [
 				{
@@ -172,8 +172,8 @@ const CONFIG = {
 					link: 'https://monkeytype.com/',
 				},
 				{
-					name: 'GitHub',
-					link: 'https://github.com/',
+					name: 'Gmail',
+					link: 'https://mail.google.com/',
 				},
 			],
 		},
