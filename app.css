@@ -200,7 +200,7 @@ body {
 }
 
 .fullDate {
-  font-size: 4.5vh;
+  font-size: 5.5vh;
   font-weight: 600;
   color: var(--fg);
   letter-spacing: -0.02em;
@@ -209,7 +209,7 @@ body {
 }
 
 .weatherDivider {
-  width: 180px;
+  width: 240px;
   height: 1px;
   background: linear-gradient(
     to right,
@@ -218,21 +218,15 @@ body {
     var(--accent) 85%,
     transparent
   );
-  opacity: 0.2;
-  margin: 1.25rem 0;
-  transition: width 0.4s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.4s cubic-bezier(0.16, 1, 0.3, 1) !important;
-}
-
-.weatherBlock:hover .weatherDivider {
-  width: 220px;
-  opacity: 0.4;
+  opacity: 0.3;
+  margin: 1.5rem 0;
 }
 
 .weather {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem;
+  gap: 0.75rem;
   color: var(--fg);
 }
 
@@ -311,68 +305,38 @@ body {
 }
 
 #weatherIcon {
-  font-size: 2.8vh;
+  font-size: 3.5vh;
   color: var(--fg);
-  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), color 0.4s cubic-bezier(0.16, 1, 0.3, 1) !important;
 }
 
 .weatherValue p {
-  font-size: 2.5vh;
+  font-size: 3.2vh;
   font-weight: 600;
   color: var(--fg);
   line-height: 1;
 }
 
 .weatherValue .unit {
-  font-size: 1.6vh;
+  font-size: 2.2vh;
   font-weight: 400;
   color: var(--accent);
   margin-left: 1px;
 }
 
 .weatherSeparator {
-  font-size: 2.2vh;
+  font-size: 2.8vh;
   color: var(--accent);
   opacity: 0.7;
   user-select: none;
-  margin: 0 0.15rem;
+  margin: 0 0.25rem;
 }
 
 .weatherDescription p {
-  font-size: 2.2vh;
+  font-size: 2.8vh;
   font-weight: 300;
   color: var(--fg);
   opacity: 0.85;
   line-height: 1;
-}
-
-.weatherBlock:hover #weatherIcon {
-  transform: scale(1.1) translateY(-1px);
-  color: var(--accent);
-}
-
-@keyframes slow-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
-
-@keyframes gentle-float {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-2px); }
-}
-
-.weatherBlock:hover .ph-sun {
-  animation: slow-spin 12s linear infinite;
-}
-
-.weatherBlock:hover .ph-cloud-rain,
-.weatherBlock:hover .ph-cloud-lightning,
-.weatherBlock:hover .ph-cloud-snow,
-.weatherBlock:hover .ph-snowflake,
-.weatherBlock:hover .ph-cloud,
-.weatherBlock:hover .ph-clouds,
-.weatherBlock:hover .ph-cloud-fog {
-  animation: gentle-float 3s ease-in-out infinite;
 }
 
 .reduceGap {
