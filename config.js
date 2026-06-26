@@ -159,7 +159,7 @@ const CONFIG = {
 			links: [
 				{
 					name: 'CasoOS',
-					link: 'https://100.117.187.24:90/#/',
+					link: 'http://100.117.187.24:90/#/',
 				},
 				{
 					name: 'Synology',
@@ -167,11 +167,11 @@ const CONFIG = {
 				},
 				{
 					name: 'Calibre',
-					link: 'https://100.124.149.2:2665',
+					link: 'http://100.124.149.2:2665',
 				},
 				{
 					name: 'File Browser on CasaOS',
-					link: 'https://100.117.187.24:10180/files/',
+					link: 'http://100.117.187.24:10180/files/',
 				},
 			],
 		},
