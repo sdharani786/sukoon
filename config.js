@@ -136,8 +136,8 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
-					name: 'Gmail',
-					link: 'https://mail.google.com/',
+					name: 'News',
+					link: 'https://news.google.com/',
 				},
 				{
 					name: 'Calendar',
@@ -158,20 +158,20 @@ const CONFIG = {
 			id: '2',
 			links: [
 				{
-					name: 'Stack Overflow',
-					link: 'https://stackoverflow.com/',
+					name: 'CasoOS',
+					link: '100.117.187.24:90/#/',
 				},
 				{
-					name: 'MDN',
-					link: 'https://developer.mozilla.org/',
+					name: 'Synology',
+					link: 'https://sdharani.quickconnect.to',
 				},
 				{
-					name: 'Dev.to',
-					link: 'https://dev.to/',
+					name: 'Calibre',
+					link: '100.124.149.2:2665',
 				},
 				{
-					name: 'Hacker News',
-					link: 'https://news.ycombinator.com/',
+					name: 'File Browser on CasaOS',
+					link: '100.117.187.24:10180/files/',
 				},
 			],
 		},
